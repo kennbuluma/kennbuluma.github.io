@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect width="64" height="64" rx="14" fill="#0a0a0a"/>
+  <!-- Isometric Cube Lines -->
+  <path d="M32 14 L54 26 L54 50 L32 62 L10 50 L10 26 Z" fill="none" stroke="#3b82f6" stroke-width="4" stroke-linejoin="round"/>
+  <!-- Inner Y lines -->
+  <path d="M32 38 L32 62 M10 26 L32 38 M54 26 L32 38" fill="none" stroke="#3b82f6" stroke-width="4" stroke-linejoin="round"/>
+  <!-- Nodes -->
+  <circle cx="32" cy="14" r="4" fill="#ffffff"/>
+  <circle cx="54" cy="26" r="4" fill="#ffffff"/>
+  <circle cx="54" cy="50" r="4" fill="#ffffff"/>
+  <circle cx="32" cy="62" r="4" fill="#ffffff"/>
+  <circle cx="10" cy="50" r="4" fill="#ffffff"/>
+  <circle cx="10" cy="26" r="4" fill="#ffffff"/>
+  <circle cx="32" cy="38" r="5" fill="#ffffff"/>
+</svg>
