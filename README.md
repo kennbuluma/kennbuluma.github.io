@@ -1,111 +1,72 @@
-# Kennedy Buluma
+# Kennedy Buluma — Personal & Professional Portfolio Hub
 
-## Senior Software Engineer | Enterprise Systems | APIs | Mobile | Cloud
+Official personal website and professional brand hub for **Kennedy Buluma** — Senior Software Engineer, Systems Architect, Founder of **System Anatomy** (B2B Consultancy), and Creator at **Bulums Innovations** (Software Products).
 
-I design and build software systems that solve real business and operational problems.
-
-My work spans **enterprise applications, backend systems, APIs and integrations, web applications, mobile applications, databases and cloud-enabled systems**.
-
-I am particularly interested in systems where software has to do more than simply work on a developer's machine — systems that need to be reliable, maintainable, scalable and aligned with real-world business processes.
-
-### What I Build
-
-* Enterprise and business applications
-* Custom workflow and information systems
-* REST APIs and system integrations
-* Healthcare and operational software
-* Android and cross-platform mobile applications
-* Web applications and portals
-* Database-driven systems
-* Application modernization
-* AI-enabled applications
-
-### Engineering
-
-**Backend & APIs**
-
-Java · C# · .NET · REST APIs · Enterprise Application Development
-
-**Frontend**
-
-Angular · TypeScript · JavaScript
-
-**Mobile**
-
-Android · Java · React Native
-
-**Data**
-
-SQL · Relational Databases · Data Modelling · Data Integration
-
-**Engineering**
-
-Software Architecture · Algorithms & Data Structures · Testing · System Integration · Performance
+🌐 **Live Website**: [https://kennbuluma.github.io/](https://kennbuluma.github.io/)
 
 ---
 
-## Selected Projects
+## 🏛️ The Three Engagement Models
 
-### Healthcare & Medical Applications
+This website is designed around three distinct, mutually reinforcing engagement pathways:
 
-Applications designed around healthcare and medical information workflows, including mobile-oriented solutions.
+1. **Enterprise Consultancy & Architecture — [System Anatomy](https://systemanatomy.dev)**
+   - **Focus**: Custom enterprise software development, API integrations, distributed systems, and legacy application modernization.
+   - **Target**: Founders, CTOs, Operations Directors, and enterprises needing to eliminate spreadsheet sprawl and modernize core software workflows.
+   - **Website**: [https://systemanatomy.dev](https://systemanatomy.dev)
 
-**Focus:** Healthcare · Android · Java · Application Architecture
+2. **Proprietary Software Products & Ventures — [Bulums Innovations](https://bulums-innovations.com)**
+   - **Focus**: Purpose-built software applications, vertical SaaS tools, and healthcare solutions (e.g., Doctors' Directory Kenya).
+   - **Target**: Product buyers, industry operators, pilot partners, and commercial collaborators.
+   - **Website**: [https://bulums-innovations.com](https://bulums-innovations.com)
 
----
-
-### Doctors' Directory Kenya
-
-An Android application designed to help users discover and interact with information about medical professionals.
-
-**Focus:** Android · Java · Mobile Application Development
-
----
-
-### Data Structures & Algorithms Workbench
-
-A Java-based project exploring data structures, algorithms, visualization and performance characteristics.
-
-**Focus:** Java · Algorithms · Data Structures · Complexity · Benchmarking
+3. **Senior Engineering & Technical Leadership — Direct Hire**
+   - **Focus**: Hands-on Senior Software Engineer and Technical Lead roles.
+   - **Track Record**: 8+ years of production experience across Java, .NET Core / C#, TypeScript, Angular, React Native, SQL, and Cloud/Distributed systems.
+   - **LinkedIn**: [https://www.linkedin.com/in/kennedy-buluma/](https://www.linkedin.com/in/kennedy-buluma/)
+   - **GitHub**: [https://github.com/kennbuluma](https://github.com/kennbuluma)
 
 ---
 
-### Cross-Platform Mobile Applications
+## 🛠️ Tech Stack & Engineering Core
 
-React Native applications demonstrating cross-platform application development and modern TypeScript/JavaScript tooling.
-
-**Focus:** React Native · TypeScript · Mobile Development
-
----
-
-## How I Approach Software
-
-I start with the problem rather than the technology.
-
-**Understand → Architect → Build → Integrate → Test → Deploy → Improve**
-
-The goal is not simply to produce code. It is to produce software that fits the organization's processes and can be maintained as those processes evolve.
+- **Backend & APIs**: Java, C#, .NET Core, ASP.NET, RESTful APIs, Microservices, Asynchronous Message Queues
+- **Frontend & Web**: TypeScript, JavaScript, Angular, HTML5 / Modern CSS, Responsive UI Architecture
+- **Mobile Development**: Android (Native Java), React Native (TypeScript), Offline-First sync
+- **Data & Databases**: SQL, PostgreSQL, Microsoft SQL Server, Relational Schema Design, Query Optimization
+- **Systems & Architecture**: Distributed Architecture, Systems Integration, CI/CD, Containerization, Observability
+- **Applied AI**: LLM API Orchestration, Structured JSON Output Validation, Deterministic Rule Engines
 
 ---
 
-## Professional Focus
+## 📁 Repository Structure
 
-I am interested in working with organizations that need help with:
-
-* Digital transformation
-* Custom business software
-* Enterprise application development
-* Healthcare technology
-* System integration
-* API development
-* Application modernization
-* Mobile applications
-* AI-enabled business solutions
+```text
+kennbuluma.github.io/
+├── index.html       # Main landing page with unified 3-pillar ecosystem
+├── styles.css       # Clean, modern design system and responsive layout
+├── script.js        # Mobile drawer navigation & interactive portfolio filtering
+├── favicon.svg      # SVG brand favicon
+├── robots.txt       # Search engine crawler instructions
+├── sitemap.xml      # XML Sitemap for SEO indexing
+└── README.md        # Documentation and architectural overview
+```
 
 ---
 
-## Connect
+## 🚀 GitHub Pages Deployment
 
-**Website:** https://kennbuluma.github.io/
+This repository is hosted using **GitHub Pages**:
 
-**LinkedIn:** https://www.linkedin.com/in/kennedy-buluma/
+1. Ensure the repository is named `kennbuluma.github.io`.
+2. In repository settings: **Settings** → **Pages** → **Source**: `Deploy from a branch` (`main`, `/ (root)`).
+3. Any push to `main` automatically publishes live to `https://kennbuluma.github.io/`.
+
+---
+
+## 📬 Connect & Collaborate
+
+- **Personal Profile & Inquiries**: [LinkedIn](https://www.linkedin.com/in/kennedy-buluma/)
+- **Consultancy Inquiries**: [System Anatomy](https://systemanatomy.dev)
+- **Product Inquiries & Pilots**: [Bulums Innovations](https://bulums-innovations.com)
+- **Code & Open Source**: [GitHub](https://github.com/kennbuluma)

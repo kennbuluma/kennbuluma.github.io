@@ -3,55 +3,84 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Kennedy Buluma — Senior Software Engineer building enterprise systems, APIs, integrations, mobile applications and business software.">
+  <meta name="description" content="Kennedy Buluma — Senior Software Engineer, Founder of System Anatomy (consultancy) and creator at Bulums Innovations (products). Building dependable enterprise systems, APIs, and software.">
   <meta name="theme-color" content="#07101f">
-  <meta property="og:title" content="Kennedy Buluma | Software Engineer">
-  <meta property="og:description" content="Enterprise systems, APIs, integrations, mobile and business software built around real operational problems.">
+  <meta property="og:title" content="Kennedy Buluma | Senior Software Engineer · System Anatomy · Bulums Innovations">
+  <meta property="og:description" content="Enterprise systems, APIs, integrations, software products, and consultancy built around real operational problems.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://kennbuluma.github.io/">
-  <title>Kennedy Buluma | Software Engineer</title>
+  <title>Kennedy Buluma | Senior Software Engineer</title>
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="styles.css">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Kennedy Buluma",
+    "jobTitle": "Senior Software Engineer & Systems Architect",
+    "url": "https://kennbuluma.github.io/",
+    "sameAs": [
+      "https://www.linkedin.com/in/kennedy-buluma/",
+      "https://github.com/kennbuluma",
+      "https://systemanatomy.dev",
+      "https://bulums-innovations.com"
+    ],
+    "alumniOf": {
+      "@type": "EducationalOrganization",
+      "name": "Jomo Kenyatta University of Agriculture and Technology (JKUAT)"
+    }
+  }
+  </script>
 </head>
 <body>
-  <div class="noise"></div>
+  <div class="noise" aria-hidden="true"></div>
+
+  <!-- Header -->
   <header class="site-header">
     <div class="wrap nav">
-      <a class="brand" href="#top" aria-label="Kennedy Buluma home">
+      <a class="brand" href="#top" aria-label="Kennedy Buluma homepage">
         <span class="brand-symbol">KB</span>
-        <span>Kennedy Buluma</span>
+        <span class="brand-name">Kennedy Buluma</span>
       </a>
+
       <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">Menu</button>
+
       <nav class="nav-links" aria-label="Primary navigation">
         <a href="#work">Work</a>
         <a href="#solutions">Solutions</a>
         <a href="#approach">Approach</a>
         <a href="#about">About</a>
-        <a class="nav-cta" href="#contact">Start a project <span>↗</span></a>
+        <a class="nav-cta" href="#contact">Start a project / Hire <span>↗</span></a>
       </nav>
     </div>
   </header>
 
   <main id="top">
+    <!-- Hero Section -->
     <section class="hero">
       <div class="wrap hero-grid">
         <div class="hero-copy">
-          <p class="eyebrow"><span class="pulse"></span> Senior Software Engineer · Nairobi, Kenya</p>
+          <p class="eyebrow"><span class="pulse"></span> Senior Software Engineer · Founder · Nairobi, Kenya</p>
           <h1>Software that works the way <em>your business</em> works.</h1>
-          <p class="hero-lead">I design and build enterprise applications, APIs, integrations and mobile systems that turn complicated operational problems into software people can actually use.</p>
+          <p class="hero-lead">
+            I design and build enterprise applications, APIs, integrations, and mobile systems that turn complicated operational problems into software people actually use.<!-- I operate through <a href="https://systemanatomy.dev" target="_blank" rel="noreferrer">System Anatomy</a> for consulting, <a href="https://bulums-innovations.com" target="_blank" rel="noreferrer">Bulums Innovations</a> for software products, and direct senior engineering leadership.-->
+          </p>
+
           <div class="hero-actions">
-            <a class="button button-primary" href="#contact">Discuss a project <span>↗</span></a>
+            <a class="button button-primary" href="#contact">Discuss a project / Hire <span>↗</span></a>
             <a class="button button-ghost" href="#work">Explore selected work <span>↓</span></a>
           </div>
-          <div class="trust-row" aria-label="Professional focus">
+
+          <div class="trust-row" aria-label="Entities and Focus">
+            <!--<a href="https://systemanatomy.dev" target="_blank" rel="noreferrer">System Anatomy (Consultancy) ↗</a><i>·</i>
+            <a href="https://bulums-innovations.com" target="_blank" rel="noreferrer">Bulums Innovations (Products) ↗</a><i>·</i>-->
             <span>Enterprise systems</span><i>·</i>
-            <span>APIs & integrations</span><i>·</i>
-            <span>Mobile</span><i>·</i>
-            <span>AI-enabled products</span>
+            <span>APIs &amp; integrations</span>
           </div>
         </div>
 
-        <div class="hero-card" aria-label="Engineering profile">
+        <div class="hero-card" aria-label="Engineering Profile">
           <div class="card-top">
             <span class="mini-label">ENGINEERING PROFILE</span>
             <span class="status"><span></span> BUILD / INTEGRATE / IMPROVE</span>
@@ -67,22 +96,25 @@
           <div class="metric-grid">
             <div><strong>8+</strong><span>years in software</span></div>
             <div><strong>360°</strong><span>build-to-integration view</span></div>
-            <div><strong>6</strong><span>core delivery areas</span></div>
+            <div><strong>3</strong><span>collaborative avenues</span></div>
           </div>
         </div>
       </div>
     </section>
 
+    <!-- Proof Strip -->
     <section class="proof-strip">
       <div class="wrap proof-inner">
         <span class="proof-kicker">WHAT CLIENTS ACTUALLY BUY</span>
         <span>Clarity</span><span class="arrow">→</span>
         <span>Architecture</span><span class="arrow">→</span>
         <span>Working software</span><span class="arrow">→</span>
+        <span>Reliability</span><span class="arrow">→</span>
         <span>Maintainability</span>
       </div>
     </section>
 
+    <!-- Selected Work Section -->
     <section id="work" class="section work-section">
       <div class="wrap">
         <div class="section-heading">
@@ -90,13 +122,14 @@
             <p class="eyebrow">Selected work</p>
             <h2>A technical portfolio with a business point of view.</h2>
           </div>
-          <p>Not a dump of every experiment. A curated set of projects and engineering patterns that show how I think, build and solve.</p>
+          <p>Not a dump of every experiment. A curated set of projects and engineering patterns that show how I think, build, and solve.</p>
         </div>
 
         <div class="work-grid">
+          <!-- Item 1: Doctors' Directory Kenya -->
           <article class="project-card project-featured">
             <div class="project-visual healthcare">
-              <span class="visual-tag">01 / HEALTHCARE</span>
+              <span class="visual-tag">01 / HEALTHCARE PRODUCT</span>
               <div class="visual-ui">
                 <span class="ui-dot"></span><span class="ui-dot"></span><span class="ui-dot"></span>
                 <div class="ui-line wide"></div><div class="ui-line"></div><div class="ui-line shorter"></div>
@@ -104,29 +137,33 @@
               </div>
             </div>
             <div class="project-body">
-              <div class="project-meta"><span>Android · Java</span><span>Portfolio / demonstrator</span></div>
+              <div class="project-meta"><span> Android / Java</span><span>Healthcare Product</span></div>
               <h3>Doctors’ Directory Kenya</h3>
-              <p>A healthcare-oriented mobile application demonstrating how structured information can become a focused, user-facing product rather than a raw database.</p>
-              <div class="tag-row"><span>Healthcare</span><span>Mobile UX</span><span>Application architecture</span></div>
-              <a class="text-link" href="https://github.com/kennbuluma" target="_blank" rel="noreferrer">View GitHub profile <span>↗</span></a>
+              <p>A specialized healthcare product demonstrating how structured medical information can become a focused, accessible mobile tool rather than a raw, fragmented database.</p>
+              <div class="tag-row"><span>Healthcare</span><span>Mobile UX</span><span>Java</span></div>
+              <!--<div class="project-links">
+                <a class="text-link" href="https://github.com/kennbuluma" target="_blank" rel="noreferrer">GitHub profile <span>↗</span></a>
+              </div>-->
             </div>
           </article>
 
+          <!-- Item 2: Document Workflow Engine -->
           <article class="project-card">
             <div class="project-visual workflow">
-              <span class="visual-tag">02 / ENTERPRISE</span>
+              <span class="visual-tag">02 / ENTERPRISE ARCHITECTURE</span>
               <div class="flow-visual">
                 <span>REQUEST</span><b>→</b><span>VALIDATE</span><b>→</b><span>PERSIST</span><b>→</b><span>PROCESS</span>
               </div>
             </div>
             <div class="project-body">
-              <div class="project-meta"><span>APIs · .NET · Async processing</span><span>Sanitized case study</span></div>
+              <div class="project-meta"><span>Java · .NET / C#</span><span>Consultancy Pattern</span></div>
               <h3>Document Workflow Architecture</h3>
-              <p>A representative enterprise workflow pattern covering validation, persistence, quota enforcement and background notifications without exposing proprietary implementation.</p>
-              <div class="tag-row"><span>REST APIs</span><span>Reliability</span><span>Background processing</span></div>
+              <p>A representative enterprise workflow pattern covering validation, transactional persistence, quota enforcement, background queues, and notifications without exposing proprietary systems.</p>
+              <div class="tag-row"><span>REST APIs</span><span>Reliability</span><span>Async Processing</span></div>
             </div>
           </article>
 
+          <!-- Item 3: Cross-Platform Mobile -->
           <article class="project-card">
             <div class="project-visual mobile">
               <span class="visual-tag">03 / CROSS-PLATFORM</span>
@@ -139,63 +176,69 @@
               </div>
             </div>
             <div class="project-body">
-              <div class="project-meta"><span>React Native · TypeScript</span><span>Portfolio project</span></div>
+              <div class="project-meta"><span>Bulums Innovations · React Native</span><span>Mobile Product</span></div>
               <h3>Cross-Platform Mobile Products</h3>
-              <p>Mobile product work focused on practical application flows, reusable UI structure and a clean boundary between the client and backend.</p>
-              <div class="tag-row"><span>React Native</span><span>TypeScript</span><span>Mobile architecture</span></div>
+              <p>Mobile product work focused on practical application flows, reusable UI structure, offline resilience, and a clean boundary between client and backend services.</p>
+              <div class="tag-row"><span>React Native</span><span>TypeScript</span><span>Mobile Architecture</span></div>
             </div>
           </article>
 
+          <!-- Item 4: Algorithms Workbench -->
           <article class="project-card">
             <div class="project-visual algorithms">
-              <span class="visual-tag">04 / ENGINEERING</span>
+              <span class="visual-tag">04 / CORE ENGINEERING</span>
               <div class="bars"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>
               <div class="algo-label">O(n log n)</div>
             </div>
             <div class="project-body">
-              <div class="project-meta"><span>Java · Algorithms</span><span>Engineering study</span></div>
-              <h3>Data Structures & Algorithms Workbench</h3>
-              <p>A deliberately lower-level project that shows fluency beneath frameworks: algorithms, complexity, visualization, benchmarking and architectural reasoning.</p>
-              <div class="tag-row"><span>Complexity</span><span>Benchmarking</span><span>Java</span></div>
+              <div class="project-meta"><span>Java · Algorithms</span><span>Engineering Study</span></div>
+              <h3>Data Structures &amp; Algorithms Workbench</h3>
+              <p>Fluency beneath abstractions: algorithmic complexity, data structures, visualization, benchmarking, and architectural reasoning in Java.</p>
+              <div class="tag-row"><span>Complexity</span><span>Benchmarking</span><span>Java</span><span>Performance</span></div>
             </div>
           </article>
 
+          <!-- Item 5: AI for Useful Work -->
           <article class="project-card">
             <div class="project-visual ai">
-              <span class="visual-tag">05 / AI</span>
+              <span class="visual-tag">05 / APPLIED AI</span>
               <div class="ai-orb"><i></i><i></i><i></i><i></i></div>
-              <div class="ai-caption">AI + deterministic business logic</div>
+              <div class="ai-caption">AI + deterministic logic</div>
             </div>
             <div class="project-body">
-              <div class="project-meta"><span>AI-enabled application</span><span>Portfolio / demonstrator</span></div>
+              <div class="project-meta"><span>Applied AI</span><span>Consultancy Pattern</span></div>
               <h3>AI for Useful Work</h3>
-              <p>The focus is not “an AI demo”. It is using AI where it provides leverage, while keeping core application rules explicit, testable and under engineering control.</p>
-              <div class="tag-row"><span>AI</span><span>Product engineering</span><span>Business logic</span></div>
+              <p>Using AI where it creates real leverage (extraction, summarization, automation), while keeping core business transactions deterministic, testable, and under human control.</p>
+              <div class="tag-row"><span>Applied AI</span><span>Product Engineering</span><span>Business Logic</span></div>
             </div>
           </article>
 
+          <!-- Item 6: Operations into Software -->
           <article class="project-card">
             <div class="project-visual ops">
-              <span class="visual-tag">06 / OPERATIONS</span>
+              <span class="visual-tag">06 / OPERATIONS PLATFORM</span>
               <div class="ops-grid">
                 <div><b>ORDERS</b><strong>148</strong></div>
                 <div><b>ROUTES</b><strong>18</strong></div>
-                <div><b>STATUS</b><strong>96%</strong></div>
+                <div><b>STATUS</b><strong>99.4%</strong></div>
               </div>
             </div>
             <div class="project-body">
-              <div class="project-meta"><span>Business application</span><span>Portfolio / demonstrator</span></div>
+              <div class="project-meta"><span>Operations</span><span>Product Lab</span></div>
               <h3>Turning Operations into Software</h3>
-              <p>Business-process software is where technical work becomes operational value: replacing fragmented manual work with connected workflows and usable information.</p>
-              <div class="tag-row"><span>Workflow design</span><span>Data</span><span>Business systems</span></div>
+              <p>Replacing fragmented spreadsheets, manual messages, and paper slips with connected workflows, dispatch tracking, and usable real-time information.</p>
+              <div class="tag-row"><span>Workflow Design</span><span>Data</span><span>Operations</span></div>
             </div>
           </article>
         </div>
 
-        <div class="center-link"><a class="button button-dark" href="https://github.com/kennbuluma" target="_blank" rel="noreferrer">Explore the code <span>↗</span></a></div>
+        <div class="center-link">
+          <a class="button button-dark" href="https://github.com/kennbuluma" target="_blank" rel="noreferrer">Explore code on GitHub <span>↗</span></a>
+        </div>
       </div>
     </section>
 
+    <!-- Solutions Section -->
     <section id="solutions" class="section solutions-section">
       <div class="wrap">
         <div class="section-heading compact">
@@ -203,20 +246,21 @@
             <p class="eyebrow">Where I add value</p>
             <h2>From messy process to dependable system.</h2>
           </div>
-          <p>The strongest engagements start with the business problem, then select the technology that fits it.</p>
+          <p>The strongest engagements start with the business problem, then select the architecture and technology that fits it.</p>
         </div>
 
         <div class="solution-grid">
-          <article class="solution"><span class="solution-no">01</span><div><h3>Enterprise & business systems</h3><p>Custom applications for complex workflows, multiple users, structured data and operational accountability.</p></div></article>
-          <article class="solution"><span class="solution-no">02</span><div><h3>APIs & integrations</h3><p>Connect internal systems, databases, mobile clients, third-party services and business processes through reliable interfaces.</p></div></article>
-          <article class="solution"><span class="solution-no">03</span><div><h3>Application modernization</h3><p>Improve slow, brittle or expensive-to-change software without automatically throwing away what still creates value.</p></div></article>
-          <article class="solution"><span class="solution-no">04</span><div><h3>Mobile applications</h3><p>Android and cross-platform applications designed as part of the wider product system, not as isolated front ends.</p></div></article>
-          <article class="solution"><span class="solution-no">05</span><div><h3>Healthcare technology</h3><p>Software for information-heavy healthcare workflows where usability, data handling and dependable operations matter.</p></div></article>
-          <article class="solution"><span class="solution-no">06</span><div><h3>AI-enabled products</h3><p>Use AI where it creates practical leverage while preserving deterministic rules, observability, testing and human control.</p></div></article>
+          <article class="solution"><span class="solution-no">01</span><div><h3>Enterprise &amp; business systems</h3><p>Custom applications for complex workflows, multiple roles, structured data, and operational accountability.</p></div></article>
+          <article class="solution"><span class="solution-no">02</span><div><h3>APIs &amp; integrations</h3><p>Connect internal systems, databases, mobile clients, third-party services, and business processes through reliable interfaces.</p></div></article>
+          <article class="solution"><span class="solution-no">03</span><div><h3>Application modernization</h3><p>Improve slow, brittle, or expensive-to-change software without automatically throwing away what still creates value.</p></div></article>
+          <article class="solution"><span class="solution-no">04</span><div><h3>Mobile applications</h3><p>Android and cross-platform applications designed as seamless parts of the wider system, with offline resilience.</p></div></article>
+          <article class="solution"><span class="solution-no">05</span><div><h3>Healthcare technology</h3><p>Software for information-heavy healthcare and directory workflows where usability, data integrity, and privacy matter.</p></div></article>
+          <article class="solution"><span class="solution-no">06</span><div><h3>AI-enabled products</h3><p>Use AI where it creates practical leverage while preserving deterministic rules, observability, testing, and human control.</p></div></article>
         </div>
       </div>
     </section>
 
+    <!-- Problem Section -->
     <section class="section problem-section">
       <div class="wrap problem-wrap">
         <div class="problem-intro">
@@ -225,14 +269,15 @@
           <p>I help make the disguise disappear.</p>
         </div>
         <div class="problem-list">
-          <div class="problem"><span>01</span><div><strong>“We still run a critical process through spreadsheets, email and WhatsApp.”</strong><p>Map the workflow, design the system and move the process into software.</p></div></div>
-          <div class="problem"><span>02</span><div><strong>“Our systems work, but they do not talk to one another.”</strong><p>Create the API and integration layer that connects the existing pieces.</p></div></div>
-          <div class="problem"><span>03</span><div><strong>“Our application gets harder to change every year.”</strong><p>Find the architectural pressure points and modernize deliberately.</p></div></div>
-          <div class="problem"><span>04</span><div><strong>“We know what we want to build, but not how to turn it into a working system.”</strong><p>Start from requirements and architecture, then move into an actionable build.</p></div></div>
+          <div class="problem"><span>01</span><div><strong>“We still run a critical process through spreadsheets, email, and WhatsApp.”</strong><p>Map the workflow, design the system, and move the process into auditable custom software.</p></div></div>
+          <div class="problem"><span>02</span><div><strong>“Our systems work, but they do not talk to one another.”</strong><p>Create the API and integration layer that seamlessly connects the existing pieces.</p></div></div>
+          <div class="problem"><span>03</span><div><strong>“Our application gets harder and more expensive to change every year.”</strong><p>Find the architectural pressure points and modernize deliberately with zero downtime.</p></div></div>
+          <div class="problem"><span>04</span><div><strong>“We know what we want to build, but lack senior engineering leadership to execute.”</strong><p>Start from business requirements, establish clean architecture, and move into an actionable build.</p></div></div>
         </div>
       </div>
     </section>
 
+    <!-- Approach Section -->
     <section id="approach" class="section approach-section">
       <div class="wrap">
         <div class="section-heading compact">
@@ -242,16 +287,17 @@
           </div>
         </div>
         <div class="approach-grid">
-          <div class="step"><span>01</span><h3>Understand</h3><p>Clarify the users, constraints, process and actual business outcome before choosing a stack.</p></div>
-          <div class="step"><span>02</span><h3>Architect</h3><p>Define boundaries, data, integrations, failure modes and the simplest structure that can grow.</p></div>
+          <div class="step"><span>01</span><h3>Understand</h3><p>Clarify the users, constraints, process, and actual business outcome before choosing a stack.</p></div>
+          <div class="step"><span>02</span><h3>Architect</h3><p>Define boundaries, data models, integrations, failure modes, and the simplest structure that can grow.</p></div>
           <div class="step"><span>03</span><h3>Build</h3><p>Deliver working software in increments that keep the problem visible and the feedback loop short.</p></div>
           <div class="step"><span>04</span><h3>Integrate</h3><p>Make the new system work with the systems and people already in the organization.</p></div>
-          <div class="step"><span>05</span><h3>Test</h3><p>Protect critical behavior with validation, automated tests and explicit handling of failure and edge cases.</p></div>
-          <div class="step"><span>06</span><h3>Improve</h3><p>Measure what matters, remove friction and evolve the system instead of letting it fossilize.</p></div>
+          <div class="step"><span>05</span><h3>Test</h3><p>Protect critical behavior with automated validation, contracts, and explicit handling of edge cases.</p></div>
+          <div class="step"><span>06</span><h3>Improve</h3><p>Measure telemetry, remove newly surfaced friction, and evolve the system as business needs grow.</p></div>
         </div>
       </div>
     </section>
 
+    <!-- Tech Section -->
     <section class="section tech-section">
       <div class="wrap tech-wrap">
         <div>
@@ -259,16 +305,17 @@
           <h2>Enough range to see the whole system.</h2>
         </div>
         <div class="tech-groups">
-          <div><span>Backend & APIs</span><p>Java · C# · .NET · REST APIs · enterprise application development</p></div>
-          <div><span>Web</span><p>Angular · TypeScript · JavaScript</p></div>
-          <div><span>Mobile</span><p>Android · Java · React Native</p></div>
-          <div><span>Data</span><p>SQL · relational databases · data modelling · data integration</p></div>
-          <div><span>Engineering</span><p>Software architecture · algorithms · testing · integrations · performance</p></div>
-          <div><span>AI</span><p>AI-enabled application patterns with application logic kept explicit and controllable</p></div>
+          <div><span>Backend &amp; APIs</span><p>Java · C# · .NET Core · REST APIs · Enterprise application development · Microservices</p></div>
+          <div><span>Web</span><p>TypeScript · Angular · JavaScript · Modern HTML5/CSS3</p></div>
+          <div><span>Mobile</span><p>Android · Java · React Native · Offline sync</p></div>
+          <div><span>Data</span><p>SQL · PostgreSQL · SQL Server · Relational modeling · Data integration</p></div>
+          <div><span>Engineering</span><p>Software architecture · Algorithms · Testing · Distributed integrations · Performance</p></div>
+          <div><span>AI &amp; Automation</span><p>AI-enabled application patterns with deterministic application logic kept under engineering control</p></div>
         </div>
       </div>
     </section>
 
+    <!-- About Section -->
     <section id="about" class="section about-section">
       <div class="wrap about-grid">
         <div>
@@ -276,37 +323,55 @@
           <h2>A senior engineer who cares about what happens after deployment.</h2>
         </div>
         <div class="about-copy">
-          <p>I am a Senior Software Engineer focused on designing and building software systems that solve practical business and operational problems.</p>
-          <p>My experience spans enterprise software, backend systems, APIs, web applications, mobile applications, databases and system integration. I enjoy problems where software engineering intersects with real organizational processes: how work actually happens, where friction appears, and what a system needs to remain useful as that work evolves.</p>
+          <p>I am Kennedy Buluma, a Senior Software Engineer focused on designing and building software systems that solve practical business and operational problems.</p>
+          <p>My work spans enterprise applications, backend systems, APIs, mobile products, and systems integration. I consult for organizations through <a href="https://systemanatomy.dev" target="_blank" rel="noreferrer"><strong>System Anatomy</strong></a>, develop software products via <a href="https://bulums-innovations.com" target="_blank" rel="noreferrer"><strong>Bulums Innovations</strong></a>, and partner directly with engineering teams seeking senior technical leadership.</p>
           <div class="facts">
             <div><strong>8+</strong><span>years in software engineering</span></div>
             <div><strong>2012–2016</strong><span>BSc. Information Technology · JKUAT</span></div>
             <div><strong>Kenya</strong><span>Based in Nairobi · remote-friendly delivery</span></div>
           </div>
-          <a class="text-link" href="https://ke.linkedin.com/in/kennedy-buluma" target="_blank" rel="noreferrer">Professional profile on LinkedIn <span>↗</span></a>
+          <a class="text-link" href="https://www.linkedin.com/in/kennedy-buluma/" target="_blank" rel="noreferrer">Professional profile on LinkedIn <span>↗</span></a>
         </div>
       </div>
     </section>
 
+    <!-- Contact Section -->
     <section id="contact" class="section contact-section">
       <div class="wrap contact-card">
         <div>
           <p class="eyebrow">Start a conversation</p>
-          <h2>Have a system to build, fix, connect or modernize?</h2>
-          <p>Give me the business problem first. We can work out the technical path from there.</p>
+          <h2>Have a system to build, modernize, or hire for?</h2>
+          <p>Give me the business problem first. We can work out the right path — whether through custom consulting and project implementation, prebuilt software products, or direct senior engineering collaboration.</p>
         </div>
         <div class="contact-actions">
-          <a class="button button-primary large" href="https://ke.linkedin.com/in/kennedy-buluma" target="_blank" rel="noreferrer">Message me on LinkedIn <span>↗</span></a>
-          <a class="button button-ghost large" href="https://github.com/kennbuluma" target="_blank" rel="noreferrer">Review my GitHub <span>↗</span></a>
+          <a class="button button-primary large" href="https://www.linkedin.com/in/kennedy-buluma/" target="_blank" rel="noreferrer">Message on LinkedIn <span>↗</span></a>
+          <a class="button button-ghost large" href="https://systemanatomy.dev" target="_blank" rel="noreferrer">Discuss a project <span>↗</span></a>
+          <a class="button button-ghost large" href="https://bulums-innovations.com" target="_blank" rel="noreferrer">Explore products <span>↗</span></a>
+        </div>
+        <div class="contact-direct">
+          <span>Direct email:</span>
+          <a href="mailto:kennedy@systemanatomy.dev">Consultancy</a>
+          <i>·</i>
+          <a href="https://github.com/kennbuluma" target="_blank" rel="noreferrer">GitHub</a>
         </div>
       </div>
     </section>
   </main>
 
+  <!-- Footer -->
   <footer class="footer">
     <div class="wrap footer-inner">
-      <div><strong>Kennedy Buluma</strong><span>Software engineering for real-world systems.</span></div>
-      <div class="footer-links"><a href="https://ke.linkedin.com/in/kennedy-buluma" target="_blank" rel="noreferrer">LinkedIn</a><a href="https://github.com/kennbuluma" target="_blank" rel="noreferrer">GitHub</a><a href="#top">Back to top ↑</a></div>
+      <div>
+        <strong>Kennedy Buluma</strong>
+        <span>Software engineering for real-world systems.</span>
+      </div>
+      <div class="footer-links">
+        <a href="https://www.linkedin.com/in/kennedy-buluma/" target="_blank" rel="noreferrer">LinkedIn</a>
+        <a href="https://systemanatomy.dev" target="_blank" rel="noreferrer">Consultancy</a>
+        <a href="https://bulums-innovations.com" target="_blank" rel="noreferrer">Products</a>
+        <a href="https://github.com/kennbuluma" target="_blank" rel="noreferrer">GitHub</a>
+        <a href="#top">Back to top ↑</a>
+      </div>
     </div>
   </footer>
 
