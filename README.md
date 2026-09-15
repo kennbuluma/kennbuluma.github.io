@@ -1,43 +1,111 @@
-# kennbuluma.github.io
+# Kennedy Buluma
 
-Customer-facing personal professional site for Kennedy Buluma.
+## Senior Software Engineer | Enterprise Systems | APIs | Mobile | Cloud
 
-## Positioning
+I design and build software systems that solve real business and operational problems.
 
-The site is deliberately positioned around **business outcomes and engineering capability**, rather than a long technology list:
+My work spans **enterprise applications, backend systems, APIs and integrations, web applications, mobile applications, databases and cloud-enabled systems**.
 
-- Enterprise & business systems
-- APIs & integrations
-- Application modernization
-- Mobile applications
-- Healthcare technology
-- AI-enabled products
+I am particularly interested in systems where software has to do more than simply work on a developer's machine — systems that need to be reliable, maintainable, scalable and aligned with real-world business processes.
 
-## Structure
+### What I Build
 
-Single-page GitHub Pages site with:
+* Enterprise and business applications
+* Custom workflow and information systems
+* REST APIs and system integrations
+* Healthcare and operational software
+* Android and cross-platform mobile applications
+* Web applications and portals
+* Database-driven systems
+* Application modernization
+* AI-enabled applications
 
-- sticky navigation
-- customer-oriented hero section
-- curated project showcase
-- problem/solution messaging
-- engineering approach
-- technical capability summary
-- professional background
-- LinkedIn and GitHub conversion paths
-- responsive mobile navigation
+### Engineering
 
-## Deploy
+**Backend & APIs**
 
-This is a plain static site. Push the contents of this directory to the repository that publishes `kennbuluma.github.io`, then enable GitHub Pages from the repository settings.
+Java · C# · .NET · REST APIs · Enterprise Application Development
 
-## Important content note
+**Frontend**
 
-Project descriptions are intentionally framed as portfolio/demonstrator material where source ownership or client confidentiality is not established. Do not add proprietary source code, client data, credentials, internal architecture, or other restricted material.
+Angular · TypeScript · JavaScript
 
-## Before publishing
+**Mobile**
 
-1. Replace any project links with the exact public repositories you want customers to inspect.
-2. Add real screenshots/demos for projects that have them.
-3. Add a direct professional email only when you choose the address you want public.
-4. Keep the site aligned with the public GitHub profile and LinkedIn profile.
+Android · Java · React Native
+
+**Data**
+
+SQL · Relational Databases · Data Modelling · Data Integration
+
+**Engineering**
+
+Software Architecture · Algorithms & Data Structures · Testing · System Integration · Performance
+
+---
+
+## Selected Projects
+
+### Healthcare & Medical Applications
+
+Applications designed around healthcare and medical information workflows, including mobile-oriented solutions.
+
+**Focus:** Healthcare · Android · Java · Application Architecture
+
+---
+
+### Doctors' Directory Kenya
+
+An Android application designed to help users discover and interact with information about medical professionals.
+
+**Focus:** Android · Java · Mobile Application Development
+
+---
+
+### Data Structures & Algorithms Workbench
+
+A Java-based project exploring data structures, algorithms, visualization and performance characteristics.
+
+**Focus:** Java · Algorithms · Data Structures · Complexity · Benchmarking
+
+---
+
+### Cross-Platform Mobile Applications
+
+React Native applications demonstrating cross-platform application development and modern TypeScript/JavaScript tooling.
+
+**Focus:** React Native · TypeScript · Mobile Development
+
+---
+
+## How I Approach Software
+
+I start with the problem rather than the technology.
+
+**Understand → Architect → Build → Integrate → Test → Deploy → Improve**
+
+The goal is not simply to produce code. It is to produce software that fits the organization's processes and can be maintained as those processes evolve.
+
+---
+
+## Professional Focus
+
+I am interested in working with organizations that need help with:
+
+* Digital transformation
+* Custom business software
+* Enterprise application development
+* Healthcare technology
+* System integration
+* API development
+* Application modernization
+* Mobile applications
+* AI-enabled business solutions
+
+---
+
+## Connect
+
+**Website:** https://kennbuluma.github.io/
+
+**LinkedIn:** https://www.linkedin.com/in/kennedy-buluma/
