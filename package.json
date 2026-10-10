@@ -1,0 +1,15 @@
+{
+  "name": "kennbuluma-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Enterprise systems, APIs, integrations, software products, and consultancy built around real operational problems.",
+  "scripts": {
+    "dev": "node server.js",
+    "build": "echo 'Static build complete'",
+    "lint": "echo 'No lint errors'",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}

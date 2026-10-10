@@ -1,4 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-<rect width="64" height="64" rx="16" fill="#07101f"/>
-<text x="32" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="23" font-weight="700" fill="#79e6c7">KB</text>
+  <rect width="64" height="64" rx="16" fill="#0c0a09"/>
+  <rect x="2" y="2" width="60" height="60" rx="14" fill="none" stroke="#b86942" stroke-width="2" stroke-opacity="0.6"/>
+  <text x="32" y="41" text-anchor="middle" font-family="'Plus Jakarta Sans', system-ui, -apple-system, sans-serif" font-size="24" font-weight="800" fill="#e89f78" letter-spacing="-1">KB</text>
 </svg>
